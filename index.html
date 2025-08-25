@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My College</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; }
+        header { background: #083d77; color: #fff; padding: 20px 0; text-align: center; }
+        nav { background: #054169; display: flex; justify-content: center; }
+        nav a { color: #fff; text-decoration: none; padding: 14px 20px; display: block; }
+        nav a:hover { background: #1269b0; }
+        .container { max-width: 900px; margin: 30px auto; background: #fff; padding: 30px; box-shadow: 0 2px 8px #ddd; border-radius: 8px; }
+        h2 { color: #083d77; }
+        .courses { display: flex; flex-wrap: wrap; gap: 16px; }
+        .course-card { flex: 1 1 260px; background: #e3e7ed; padding: 20px; border-radius: 6px; box-shadow: 0 1px 4px #ccc; }
+        footer { background: #083d77; color: #fff; text-align: center; padding: 15px 0; margin-top: 40px; }
+        @media (max-width: 600px) {
+            .courses { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My College</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                My College is dedicated to providing quality education and fostering innovation. 
+                Established in 1990, we have a rich tradition of academic excellence and a vibrant campus life.
+            </p>
+        </section>
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="courses">
+                <div class="course-card">
+                    <h3>Bachelor of Science (B.Sc)</h3>
+                    <p>Duration: 3 Years <br> Specializations in Physics, Chemistry, Mathematics, and Computer Science.</p>
+                </div>
+                <div class="course-card">
+                    <h3>Bachelor of Arts (B.A.)</h3>
+                    <p>Duration: 3 Years <br> Specializations in English, History, Economics, and Psychology.</p>
+                </div>
+                <div class="course-card">
+                    <h3>Bachelor of Commerce (B.Com)</h3>
+                    <p>Duration: 3 Years <br> Focus on Accounting, Finance, and Business Studies.</p>
+                </div>
+                <div class="course-card">
+                    <h3>Master of Science (M.Sc)</h3>
+                    <p>Duration: 2 Years <br> Advanced studies in selected science disciplines.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Address: 123 College Road, City, State, Country<br>
+                Phone: +1-234-567-890<br>
+                Email: info@mycollege.edu
+            </p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 My College. All Rights Reserved.
+    </footer>
+</body>
+</html>
